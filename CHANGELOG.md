@@ -1,10 +1,71 @@
 # Changelog
 
+## [0.18.16] - 2024-05-16
+
+### Bug Fixes
+
+- Change windows-only imports to be windows-only
+
+### Documentation
+
+- Replace decay with color-scale
+- Update INSTALL.md
+- Fix typo in `INSTALL.md`
+- Use 3 columns for packaging status badge
+
+### Build
+
+- Bump DeterminateSystems/flake-checker-action from 5 to 7
+- Bump DeterminateSystems/nix-installer-action from 10 to 11
+
+## [0.18.15] - 2024-05-09
+
+### Bug Fixes
+
+- Correct command for latest tag in deb-package.sh
+
+### Documentation
+
+- Add how to find man pages in terminal and online. Partly fixes #967
+- Correct heading levels in markdown
+- Move heading out of collapsed section
+- Add some keywords for benefit of ctrl-f
+
+### Features
+
+- Return to original commit at the end of deb-package.sh
+- Add optional tag argument to deb-package.sh
+
+### Miscellaneous Tasks
+
+- Release eza v0.18.15
+
+## [0.18.14] - 2024-05-02
+
+### Features
+
+- Add icon for "cron.minutely" directory
+
+### Miscellaneous Tasks
+
+- Release eza v0.18.14
+
+### Build
+
+- Bump uzers from 0.11.3 to 0.12.0
+- Bump libc from 0.2.153 to 0.2.154
+- Bump unicode-width from 0.1.11 to 0.1.12
+- Bump palette from 0.7.5 to 0.7.6
+
 ## [0.18.13] - 2024-04-25
 
 ### Features
 
 - Generate completion/manpage tarballs on release
+
+### Miscellaneous Tasks
+
+- Release eza v0.18.13
 
 ## [0.18.12] - 2024-04-22
 
